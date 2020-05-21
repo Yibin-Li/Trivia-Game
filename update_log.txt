@@ -30,11 +30,11 @@ V6
 1. Modified result div UI
 2. Modified option UI
 3. Fixed one could answer a question multiple times
-4. Do over could only use twice
+4. Do over could only use ONCE (the second time when user clicks the do over button will link to the roundup screen)
 
 V7
 1. Added "Dang! Almost..." and "You got it!" two highlight sentence
-2. Modified UI to align with the version in sigma
+2. Modified UI to align with the version in Figma
 
 TODO:
 1. The round up screen
