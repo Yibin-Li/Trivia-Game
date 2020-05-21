@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Trivia Game</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- change icon picture -->
+    <!-- <link rel="icon" type="image/gif" href="./assets/images/IMG_3456.jpg"/> -->
+
+    <!-- Custom styles for this template -->
+<!--    <link href="jumbotron-narrow.css" rel="stylesheet">-->
+
+  </head>
+
+  <!-- the game screen is white, and for anything else it is black -->
+  <body style="background-color:black">
+
+    <!-- <audio controls loop>
+      <source src="./assets/images/tumblr_lq9mbjMc3g1qas0n5o1.mp3" type="audio/mp3"/>
+    </audio> -->
+
+    <div class="container" id="gameScreen">
+      <div id="questionNumberDiv">
+        <p id="questionNumber"></p>
+      </div>
+
+      <div id="game">
+        <h2 id="title">Finance Trivia Game</h2>
+        <p id="question" class="lead"></p>
+      </div>
+
+      <div class="row">
+        <div id="choices" class="text-center">
+          <button id="start" class="btn btn-info btn-lg">Start Game</button>
+        </div>
+
+      <div id="wrongAnswerHighlight">
+        <p>Dang! Almost...</p>
+      </div>
+
+      <div id="youGotIt">
+        <p>&nbsp&nbsp&nbspYou got it!</p>
+      </div>
+
+      <div id="results"></div>
+
+      <div id="roundupDiv"></div>
+
+        <div id="options"></div>
+      </div>
+
+      <div id="circle">
+        <p id="remaining-time" class="lead"><span id="timer"></span></p>
+      </div>
+
+      <div>
+        <div id="countdown">
+          <h2>Ready!</h2>
+          <p id="countdown-time" class="lead"></p>
+        </div>
+      </div>
+
+      <div id="nextQuestionButton">
+        <button class="next btn btn-info btn-lg">
+          <div id="nextQuestionButtonText">Next</div>
+        </button>
+      </div>
+
+      <div id="roundupButton">
+        <button class="roundup btn btn-info btn-lg">
+          <div id="roundupButtonText">Roundup</div>
+        </button>
+      </div>
+
+      <div id="doOverButton">
+        <button class="doover btn btn-info btn-lg">
+          <div id="doOverButtonText">Do over</div>
+        </button>
+      </div>
+
+      <!-- <div id="roundupButton">
+        <button class="roundup btn btn-info btn-lg">Roundup</button>
+      </div> -->
+    </div>
+
+    <!-- jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- TRIVIA APP JS -->
+    <script src="./assets/js/app.js"></script>
+
+
+  </body>
+</html>

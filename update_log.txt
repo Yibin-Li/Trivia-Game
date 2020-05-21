@@ -1,0 +1,40 @@
+V1
+Basic trivia game demo
+
+V2
+1. Add countDown and countDownTimerRunning function in test.js, create a count down screen
+2. Modified UI 
+3. Modified questions
+
+V3
+1. New 6 questions
+2. Modified UI
+3. Add showExplanation function and "Next" button to leave the explanation page in test.js; create a explanation page
+
+V4
+1. Changed background color
+2. Moved everything to a gameScreen container; modified css to fit this change
+3. Enabled responsive game screen on different devices (laptop, phone, etc.)
+4. Added question number on top left
+5. Rewrite the result (roundup) to a new function called roundup
+6. Fixed showing the last question again before displaying result screen
+
+V5
+1. Added roundup and Do over button
+2. Deleted the unanswered row in the round up screen.
+3. Added capital letter before each answer option
+4. Further modified UI (text font, style, etc.)
+5. Optimized screen on different devices.
+
+V6
+1. Modified result div UI
+2. Modified option UI
+3. Fixed one could answer a question multiple times
+4. Do over could only use twice
+
+V7
+1. Added "Dang! Almost..." and "You got it!" two highlight sentence
+2. Modified UI to align with the version in sigma
+
+TODO:
+1. The round up screen
